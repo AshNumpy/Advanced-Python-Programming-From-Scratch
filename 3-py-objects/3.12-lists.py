@@ -12,10 +12,10 @@ print(len(numbers))
 print(numbers[2])
 """
 
-# userA = ["Sadık",36]
-# userB = ["Çınar", 2]
+userA = ["Sadık",36]
+userB = ["Çınar", 2]
 
-# users = [userA,userB] 
-# print(users)
-# print(users[0])
-# print(users[0][0])
+users = [userA,userB] 
+print(users)
+print(users[0])
+print(users[0][0])

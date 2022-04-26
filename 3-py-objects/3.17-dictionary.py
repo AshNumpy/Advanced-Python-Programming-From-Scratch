@@ -1,4 +1,4 @@
-"""
+
 # key - value 
 # 34 => İstanbul
 # 41 => Kocaeli
@@ -19,7 +19,7 @@ plakalar["Ankara"] = 6 #sözlüklere yeni veriler eklenebilir.
 plakalar["Kocaeli"] = "New Value" #sözlükler güncellenebilir.
 
 print(plakalar)
-"""
+
 
 users = {
     "ramazanerduran":{
