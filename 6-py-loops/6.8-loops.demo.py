@@ -44,4 +44,4 @@ if result == True:
     print(">"*50)
     print(f"Hedef sayı {num} idi.\nPuan: {point}/100")
 else:
-    print(f"Üzülme üzülme hede {num} idi. \n Puan: 0")
+    print(f"Üzülme üzülme hedef {num} idi. \n Puan: 0")
