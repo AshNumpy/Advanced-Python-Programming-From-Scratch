@@ -1,10 +1,6 @@
-pivot = [2,3]
+result = 'ramazan'
 
-cond1 = (pivot[0]>=0) & (pivot[0]<=10)
-cond2 = (pivot[1]>=0) & (pivot[1]<=10) 
+liste = ['r','a']
 
-print(cond1)
-print(cond2)
-
-if cond1 == cond2:
-    print("slm")
+entry = result not in liste
+print(entry)
