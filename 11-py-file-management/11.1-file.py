@@ -26,6 +26,6 @@ file.close()
 """
 # "x": create. Occuring the error if there is file already exist.
 try:
-    file = open("C:/Users/ramaz/OneDrive/Belgeler/GitHub/BTK Python/11-py-file-management/new_file.txt","x", encoding='utf-8')
+    file = open("new_file.txt","x", encoding='utf-8')
 except Exception as ex:
     print(ex)

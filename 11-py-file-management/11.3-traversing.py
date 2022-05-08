@@ -1,5 +1,4 @@
-
-with open ("C:/Users/ramaz/OneDrive/Belgeler/GitHub/BTK Python/11-py-file-management/new_file.txt","r",encoding="utf-8") as file:
+with open ("new_file.txt","r",encoding="utf-8") as file:
     content = file.read(25) 
     print(content)
     print(file.tell()) # location of cursor

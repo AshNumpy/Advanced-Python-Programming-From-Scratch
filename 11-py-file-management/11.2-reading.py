@@ -1,6 +1,6 @@
 #****************** .read() ******************
 # "r": read. Occuring the error if there isn't file.
-file = open("C:/Users/ramaz/OneDrive/Belgeler/GitHub/BTK Python/11-py-file-management/new_file.txt","r", encoding='utf-8')
+file = open("new_file.txt","r", encoding='utf-8')
 
 """
 # for i in file:
