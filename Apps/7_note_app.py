@@ -26,14 +26,29 @@ while True:
         mean = (n1+n2+n3)/3
 
         return student , round(mean,2)
-    
+
 
     def readNotes():
-        with open("exam_notes.txt","r",encoding="utf-8") as file:
-            for lines in file:
-                calcs = list(calcNotes(lines))
-                print(f"{calcs[0]}: {calcs[1]}")
-    
+        op = int(input("\n1- See the final points\n2- See the all exams points\n->"))
+        if op == 1:    
+            with open("exam_notes.txt","r",encoding="utf-8") as file:
+                for lines in file:
+                    lines = lines[:-1] # For not choose the blanks (\n)
+                    linesList = lines.split(':') # seperate the line as name and notes
+        
+                    student = linesList[0]
+                    notes = linesList[1].split(',')
+                    
+                    if len(notes) >= 3:
+                        calcs = list(calcNotes(lines))
+                        print(f"{calcs[0]}: {calcs[1]}")
+                    else:
+                        print(f"\t [!] {student}'s exams not finished yet")
+        
+        if op == 2:
+            with open("exam_notes.txt","r",encoding="utf-8") as file:
+                file.seek(0)
+                print(file.read())
         
 
     def saveNotes():

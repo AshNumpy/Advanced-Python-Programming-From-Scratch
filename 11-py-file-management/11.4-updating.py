@@ -10,11 +10,11 @@
 
 #***************Top of Page Update********************#
 
-# with open("suchFile.txt","r+",encoding="utf-8") as file:
-#     content = file.read()
-#     content = "Before text \n" + content
-#     file.seek(0)
-#     file.write(content)
+with open("suchFile.txt","r+",encoding="utf-8") as file:
+    content = file.read()
+    content = "Before text \n" + content
+    file.seek(0)
+    file.write(content)
 
 #*****************Middle of Page Update*******************#
 
